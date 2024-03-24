@@ -4,33 +4,33 @@ import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "Birol",
   links: [
     {
       title: "About",
       link: "#about",
     },
     {
-      title: "Projects",
-      link: "#projects",
-    },
-    {
       title: "Contact",
       link: "#contact",
     },
     {
-      title: "Links",
-      link: "/links",
-    },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      title: "Testimonials",
+      link: "#projects",
     }
+    // {
+    //   title: "Links",
+    //   link: "/links",
+    // }
+    // {
+    //   title: "Blog",
+    //   link: "https://medium.com/@hashirshoaeb",
+    // }
   ],
 }
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm Birol",
+  description: "Experienced full-stack software engineer with a passion for empowering the next generation of tech innovators through personalized and engaging computer science tutoring.",
   image: profile.src,
   buttons: [
     {
@@ -40,7 +40,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "",
       isPrimary: false,
     },
   ],
@@ -49,9 +49,9 @@ export const intro = {
 export const about = {
   title: "Who I am",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "With a rich background as a senior full-stack software engineer at industry giants like Ford Motor Company and J.P. Morgan, I possess a profound understanding of computer science's practical and theoretical aspects.",
+    "This experience allows me to offer students a unique perspective on how computer science principles are applied in real-world, high-stakes environments.",
+    "I am passionate about sharing my knowledge and skills to foster the development of aspiring programmers, offering them personalized, insight-driven learning experiences. My blend of industry experience, technical proficiency, and educational commitment positions me as an unparalleled resource for those seeking to excel in computer science and make impactful contributions to the tech world.",
   ],
 }
 
@@ -59,74 +59,80 @@ export const work = {
   title: "What I do",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: "Conceptual Understanding",
+      description: "I emphasize a strong foundation in fundamental computer science concepts, ensuring students not only learn how to code but also understand the underlying principles. This approach fosters deep comprehension and the ability to tackle new and unfamiliar problems.",
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: "Real-World Application",
+      description: "Drawing on my extensive experience at Ford Motor Company and J.P. Morgan, I integrate real-world examples and projects into the curriculum. This not only makes learning more interesting but also prepares students for the practical challenges they will face in their careers.",
+      icons: null,
+    },
+    {
+      title: "Interactive Learning",
+      description: "I believe in active participation and encourage students to learn by doing. Through interactive sessions, coding exercises, and collaborative projects, students gain hands-on experience that reinforces learning and enhances their problem-solving skills.",
+      icons: null,
+    },
+    {
+      title: "Personalized Mentorship",
+      description: "Recognizing that each student has unique strengths, weaknesses, and learning styles, I tailor my teaching methods to suit individual needs. This personalized approach ensures that every student receives the support they need to thrive.",
+      icons: null,
+    },
+    {
+      title: "Continuous Feedback and Improvement",
+      description: "I maintain an open line of communication for feedback and continuously adapt my teaching methods to maximize effectiveness and student satisfaction.",
       icons: null,
     }
   ],
 }
 
 export const projects = {
-  title: "Projects",
+  title: "Testimonials",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
-        },
-      ]
+      //title: "StarBook",
+      //description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      //image: profile.src,
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
-      ]
+      //title: "QuranTalk",
+      //description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      // icons: [
+      //   {
+      //     icon: faAppStore,
+      //     link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
+      //   },
+      //   {
+      //     icon: faGooglePlay,
+      //     link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+      //   },
+      // ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-      icons: [
-        {
-          icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
-        },
-      ]
+      //title: "Portfolio",
+      //description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      // icons: [
+      //   {
+      //     icon: faGithub,
+      //     link: "https://github.com/hashirshoaeb/portfolio",
+      //   },
+      // ]
     },
   ],
 }
 
 export const contact = {
   title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  description: "Ready to elevate your computer science skills and unlock your potential? Feel free to reach out directly by email at birolguldal@gmail.com or call/text at (734)-972-2928.",
   buttons: [
     {
       title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      link: "mailto:birolguldal@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: "Call Me",
+      link: "tel:+17349722928",
       isPrimary: false,
     },
   ]
@@ -135,7 +141,7 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
+  title: "Birol Guldal | tutor | computer science | michigan | ann arbor",
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
 }
